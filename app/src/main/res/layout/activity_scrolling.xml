@@ -17,7 +17,6 @@
             android:layout_height="wrap_content" />
 
         <include layout="@layout/content_scrolling" />
-        <!--<include layout="@layout/content_main" /> -->
 
     </LinearLayout>
 

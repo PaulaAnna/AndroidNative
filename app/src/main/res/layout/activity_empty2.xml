@@ -22,7 +22,8 @@
             android:id="@+id/txt_act2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/activity_2" />
+            android:text="@string/activity_2"
+            android:textSize="30sp" />
 
 
     </LinearLayout>
