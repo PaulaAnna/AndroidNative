@@ -1,5 +1,6 @@
 package at.marbeit.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -34,7 +35,8 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.change_activity) {
-            return true;
+            Intent intent = new Intent(this, ScrollingActivity.class);
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);
