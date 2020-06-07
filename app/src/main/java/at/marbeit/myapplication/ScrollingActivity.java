@@ -27,7 +27,7 @@ public class ScrollingActivity extends AppCompatActivity {
         RecyclerView rvContacts = findViewById(R.id.rvContacts);
 
         // Initialize contacts
-        contacts = Contact.createContactsList(20);
+        contacts = Contact.createContactsList(1000);
         // Create adapter passing in the sample user data
         ContactsAdapter adapter = new ContactsAdapter(contacts);
         // Attach the adapter to the recyclerview to populate items
